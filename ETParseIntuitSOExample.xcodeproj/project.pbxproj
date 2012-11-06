@@ -18,6 +18,8 @@
 		0324D8BF1649CE1600ED99D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0324D8BE1649CE1600ED99D8 /* Default-568h@2x.png */; };
 		0324D8C21649CE1600ED99D8 /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324D8C11649CE1600ED99D8 /* ETViewController.m */; };
 		0324D8C51649CE1600ED99D8 /* ETViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0324D8C31649CE1600ED99D8 /* ETViewController.xib */; };
+		0324D8CC1649CE3700ED99D8 /* intuit_balance_sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0324D8CB1649CE3700ED99D8 /* intuit_balance_sheet.xml */; };
+		0324D8CF1649CE5A00ED99D8 /* ETIntuitParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324D8CE1649CE5A00ED99D8 /* ETIntuitParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		0324D8C01649CE1600ED99D8 /* ETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
 		0324D8C11649CE1600ED99D8 /* ETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
 		0324D8C41649CE1600ED99D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ETViewController.xib; sourceTree = "<group>"; };
+		0324D8CB1649CE3700ED99D8 /* intuit_balance_sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = intuit_balance_sheet.xml; sourceTree = "<group>"; };
+		0324D8CD1649CE5A00ED99D8 /* ETIntuitParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETIntuitParser.h; sourceTree = "<group>"; };
+		0324D8CE1649CE5A00ED99D8 /* ETIntuitParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETIntuitParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +92,10 @@
 				0324D8B81649CE1600ED99D8 /* ETAppDelegate.m */,
 				0324D8C01649CE1600ED99D8 /* ETViewController.h */,
 				0324D8C11649CE1600ED99D8 /* ETViewController.m */,
+				0324D8CD1649CE5A00ED99D8 /* ETIntuitParser.h */,
+				0324D8CE1649CE5A00ED99D8 /* ETIntuitParser.m */,
 				0324D8C31649CE1600ED99D8 /* ETViewController.xib */,
+				0324D8CB1649CE3700ED99D8 /* intuit_balance_sheet.xml */,
 				0324D8AF1649CE1600ED99D8 /* Supporting Files */,
 			);
 			path = ETParseIntuitSOExample;
@@ -164,6 +172,7 @@
 				0324D8BD1649CE1600ED99D8 /* Default@2x.png in Resources */,
 				0324D8BF1649CE1600ED99D8 /* Default-568h@2x.png in Resources */,
 				0324D8C51649CE1600ED99D8 /* ETViewController.xib in Resources */,
+				0324D8CC1649CE3700ED99D8 /* intuit_balance_sheet.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				0324D8B51649CE1600ED99D8 /* main.m in Sources */,
 				0324D8B91649CE1600ED99D8 /* ETAppDelegate.m in Sources */,
 				0324D8C21649CE1600ED99D8 /* ETViewController.m in Sources */,
+				0324D8CF1649CE5A00ED99D8 /* ETIntuitParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

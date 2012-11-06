@@ -7,6 +7,7 @@
 //
 
 #import "ETViewController.h"
+#import "ETIntuitParser.h"
 
 @interface ETViewController ()
 
@@ -14,16 +15,21 @@
 
 @implementation ETViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"intuit_balance_sheet" ofType:@"xml"];
+    
+    NSString *xml;
+    
+    if (filePath) {
+        xml = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    }
+
+    NSDictionary *resultDict = [ETIntuitParser parseIntuitXML:xml];
+    NSLog(@"%@", resultDict);
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

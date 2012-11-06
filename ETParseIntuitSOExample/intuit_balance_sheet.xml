@@ -1,0 +1,42 @@
+<Report name="BalanceSheet">
+    <ColDesc><ColTitle>AccountType</ColTitle><ColType>ids_String</ColType></ColDesc>
+    <ColDesc><ColTitle>Amount</ColTitle><ColType>ids_Amount</ColType></ColDesc>
+    <Data>
+        <DataRow>
+            <ColData>Checking/Savings</ColData>
+            <ColData>12345345</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Accounts Receivable</ColData>
+            <ColData>674532</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Other Current Assets</ColData>
+            <ColData>423546</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Fixed Assets</ColData>
+            <ColData>63545534</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Other Assets</ColData>
+            <ColData>325465</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Accounts Payable</ColData>
+            <ColData>653653</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Other Current Liabilities</ColData>
+            <ColData>910596.75</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Long Term Liabilities</ColData>
+            <ColData>553797.26</ColData>
+        </DataRow>
+        <DataRow>
+            <ColData>Equity</ColData>
+            <ColData>45363</ColData>
+        </DataRow>
+    </Data>
+</Report>
